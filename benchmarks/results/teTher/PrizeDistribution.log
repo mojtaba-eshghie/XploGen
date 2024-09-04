@@ -1,0 +1,11 @@
+Current limit: 9223372036854775807, Max limit: 9223372036854775807
+Soft limit not changed, remains: 9223372036854775807, Max limit: 9223372036854775807
+Traceback (most recent call last):
+  File "bin/gen_exploit.py", line 114, in <module>
+    main(config['code'], config['target-address'], config['shellcode-address'], config['target_amount'],
+  File "bin/gen_exploit.py", line 30, in main
+    json.dump(p.to_json(), f)
+  File "/Users/mojtabaeshghie/.pyenv/versions/3.8.13/lib/python3.8/site-packages/teether-0.1.10-py3.8.egg/teether/project.py", line 55, in to_json
+  File "/Users/mojtabaeshghie/.pyenv/versions/3.8.13/lib/python3.8/site-packages/teether-0.1.10-py3.8.egg/teether/project.py", line 45, in cfg
+  File "/Users/mojtabaeshghie/.pyenv/versions/3.8.13/lib/python3.8/site-packages/teether-0.1.10-py3.8.egg/teether/cfg/cfg.py", line 12, in __init__
+KeyError: 0

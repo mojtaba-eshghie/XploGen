@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: teether
+Version: 0.1.10
+Summary: Analysis and automatic exploitation framework for Ethereum smart contracts
+Home-page: https://github.com/nescio007/teether
+Author: Johannes Krupp
+Author-email: johannes.krupp@cispa.saarland
+License: Apache 2.0
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.5
